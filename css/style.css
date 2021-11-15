@@ -22,6 +22,11 @@ body {
     color: lightslategray;
 }
 
+/* .img-main {
+    background-color: black;
+    opacity: 0.8;
+} */
+
 /* Content */
 
 /* header */
@@ -49,30 +54,29 @@ li {
     margin-bottom: 20px;
 }
 
-/* .bg-blue {
-    min-height: 600px;
-    background-color: rgb(30, 144, 255);
-} */
+/* Immagine + Descriozione */
 
-.img-side {
+.img-description-side {
     float: left;
-    height: 200px;
+    height: 400px;
     width: calc(25% - 20px);
-    object-fit: cover;
+    margin: 0 10px;
 }
 
-.img-main {
+.img-description-main {
     float: left;
-    height: 200px;
+    height: 400px;
     width: 50%;
-    margin: 0 20px 20px 20px;
-    object-fit: cover;
 }
 
 /* footer */
 
-footer {
-    margin-top: 20px;
-    height: 100px;
-    background-color: rgb(139, 0, 139);
+address {
+    margin-top: 40px;
+    font-style: normal;
+    text-align: center;
+}
+
+#hearts {
+    color: red;
 }
