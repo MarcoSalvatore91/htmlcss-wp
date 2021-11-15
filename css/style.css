@@ -49,24 +49,24 @@ li {
     margin-bottom: 20px;
 }
 
-.bg-blue {
+/* .bg-blue {
     min-height: 600px;
     background-color: rgb(30, 144, 255);
-}
+} */
 
-.side-lightblue {
+.img-side {
     float: left;
-    height: 400px;
-    background-color: rgb(173, 216, 230);
+    height: 200px;
     width: calc(25% - 20px);
+    object-fit: cover;
 }
 
-.main-lightblue {
+.img-main {
     float: left;
-    height: 400px;
-    background-color: rgb(173, 216, 230);
+    height: 200px;
     width: 50%;
     margin: 0 20px 20px 20px;
+    object-fit: cover;
 }
 
 /* footer */
