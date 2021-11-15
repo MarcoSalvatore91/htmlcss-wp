@@ -1,0 +1,65 @@
+/* Generics */
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box
+}
+
+/* Utilities */
+
+body {
+    width: 1200px;
+}
+
+.clearfix::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+/* Content */
+
+header {
+    height: 200px;
+    background-color: rgb(238,130,238);
+    margin-bottom: 30px;
+}
+
+.bg-yellow {
+    height: 500px;
+    background-color: goldenrod;
+    margin-bottom: 30px;
+}
+
+.bg-blue {
+    min-height: 600px;
+    background-color: rgb(30, 144, 255);
+}
+
+.head-lightblue {
+    height: 200px;
+    background-color: rgb(173, 216, 230);
+    margin-bottom: 20px;
+}
+
+.side-lightblue {
+    float: left;
+    height: 400px;
+    background-color: rgb(173, 216, 230);
+    width: calc(25% - 20px);
+}
+
+.main-lightblue {
+    float: left;
+    height: 400px;
+    background-color: rgb(173, 216, 230);
+    width: 50%;
+    margin: 0 20px 20px 20px;
+}
+
+footer {
+    margin-top: 20px;
+    height: 100px;
+    background-color: rgb(139, 0, 139);
+}
