@@ -18,6 +18,10 @@ body {
     clear: both;
 }
 
+.grey {
+    color: lightslategray;
+}
+
 /* Content */
 
 /* header */
@@ -32,26 +36,22 @@ li {
     vertical-align: bottom;
     line-height: 160px;
     margin-right: 10px;
-    color: lightslategray;
 }
 
 /* main */
 
 .jumbotron {
-    height: 500px;
-    background-color: goldenrod;
+    width: 100%;
     margin-bottom: 30px;
+}
+
+.main-header {
+    margin-bottom: 20px;
 }
 
 .bg-blue {
     min-height: 600px;
     background-color: rgb(30, 144, 255);
-}
-
-.head-lightblue {
-    height: 200px;
-    background-color: rgb(173, 216, 230);
-    margin-bottom: 20px;
 }
 
 .side-lightblue {
