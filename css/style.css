@@ -20,13 +20,24 @@ body {
 
 /* Content */
 
-header {
-    height: 200px;
-    background-color: rgb(238,130,238);
-    margin-bottom: 30px;
+/* header */
+
+.logo {
+    width: 200px;
 }
 
-.bg-yellow {
+li {
+    font-size: 20px;
+    display: inline-block;
+    vertical-align: bottom;
+    line-height: 160px;
+    margin-right: 10px;
+    color: lightslategray;
+}
+
+/* main */
+
+.jumbotron {
     height: 500px;
     background-color: goldenrod;
     margin-bottom: 30px;
@@ -57,6 +68,8 @@ header {
     width: 50%;
     margin: 0 20px 20px 20px;
 }
+
+/* footer */
 
 footer {
     margin-top: 20px;
